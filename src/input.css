@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+nav a:hover{
+    @apply underline hover:text-gray-800;
+}
+nav a{
+    @apply text-white;
+    
+}
+nav .socialIcons{
+    @apply w-[2rem] h-[2rem] bg-blue-900 flex justify-center items-center rounded-full text-white text-lg
+}
+
+@layer utilities {
+    .filled {
+        @apply scale-90 -top-5 text-button; /* Adjust styles for filled state */
+    }
+}
+
