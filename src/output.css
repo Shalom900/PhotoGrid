@@ -933,6 +933,16 @@ video {
   background-color: rgb(26 35 126 / var(--tw-bg-opacity)) !important;
 }
 
+.bg-red-700 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity)) !important;
+}
+
+.bg-red-800 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity)) !important;
+}
+
 .bg-slate-800 {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
@@ -979,8 +989,8 @@ video {
   padding-bottom: 0.5rem !important;
 }
 
-.pt-\[2rem\] {
-  padding-top: 2rem !important;
+.pt-\[1rem\] {
+  padding-top: 1rem !important;
 }
 
 .text-2xl {
@@ -1337,6 +1347,10 @@ nav .socialIcons {
     background-size: cover !important;
   }
 
+  .md\:pt-\[2rem\] {
+    padding-top: 2rem !important;
+  }
+
   .md\:text-5xl {
     font-size: 3rem !important;
     line-height: 1 !important;
@@ -1451,6 +1465,10 @@ nav .socialIcons {
     height: 100% !important;
   }
 
+  .ipad-air-portrait\:h-\[100vh\] {
+    height: 100vh !important;
+  }
+
   .ipad-air-portrait\:h-\[50vh\] {
     height: 50vh !important;
   }
@@ -1538,6 +1556,10 @@ nav .socialIcons {
 
   .ipad-air-portrait\:gap-\[1rem\] {
     gap: 1rem !important;
+  }
+
+  .ipad-air-portrait\:bg-cover {
+    background-size: cover !important;
   }
 
   .ipad-air-portrait\:text-right {
@@ -1639,6 +1661,10 @@ nav .socialIcons {
     height: 100vh !important;
   }
 
+  .lg\:h-\[120vh\] {
+    height: 120vh !important;
+  }
+
   .lg\:h-\[50vh\] {
     height: 50vh !important;
   }
@@ -1734,6 +1760,15 @@ nav .socialIcons {
 
   .lg\:gap-\[1rem\] {
     gap: 1rem !important;
+  }
+
+  .lg\:bg-red-700 {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(185 28 28 / var(--tw-bg-opacity)) !important;
+  }
+
+  .lg\:bg-cover {
+    background-size: cover !important;
   }
 
   .lg\:pt-\[2\.5rem\] {
