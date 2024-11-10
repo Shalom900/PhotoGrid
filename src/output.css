@@ -933,16 +933,6 @@ video {
   background-color: rgb(26 35 126 / var(--tw-bg-opacity)) !important;
 }
 
-.bg-red-700 {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity)) !important;
-}
-
-.bg-red-800 {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity)) !important;
-}
-
 .bg-slate-800 {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
@@ -957,8 +947,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
 
-.bg-\[url\(\/img\/bg\.jpg\)\] {
-  background-image: url(/img/bg.jpg) !important;
+.bg-\[url\(\.\.\/img\/bg\.jpg\)\] {
+  background-image: url(../img/bg.jpg) !important;
 }
 
 .bg-center {
@@ -1762,9 +1752,16 @@ nav .socialIcons {
     gap: 1rem !important;
   }
 
-  .lg\:bg-red-700 {
-    --tw-bg-opacity: 1 !important;
-    background-color: rgb(185 28 28 / var(--tw-bg-opacity)) !important;
+  .lg\:bg-\[url\(\.\/img\/bg\.jpg\)\] {
+    background-image: url(./img/bg.jpg) !important;
+  }
+
+  .lg\:bg-\[url\(\/img\/bg\.jpg\)\] {
+    background-image: url(/img/bg.jpg) !important;
+  }
+
+  .lg\:bg-\[url\(\.\.\/img\/bg\.jpg\)\] {
+    background-image: url(../img/bg.jpg) !important;
   }
 
   .lg\:bg-cover {
